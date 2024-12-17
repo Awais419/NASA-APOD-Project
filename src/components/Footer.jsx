@@ -3,7 +3,7 @@ export default function Footer(props) {
   return (
     <div className="foot">
       <div>
-        <h1>APOD PROJECT</h1>
+        <h1>APOD PROJECT By Muhammad Awais</h1>
         <h2>{data?.title}</h2>
       </div>
 

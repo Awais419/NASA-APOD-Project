@@ -20,7 +20,7 @@ const App = () => {
       try {
         const response = await axios.get(
           "https://api.nasa.gov/planetary/apod" +
-            `?api_key=${NASAKEY}&date=2024-2-4`
+            `?api_key=${NASAKEY}&date=2024-1-29`
         );
         setFetchData(response.data);
         console.log(response);
